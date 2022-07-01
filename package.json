@@ -1,6 +1,6 @@
 {
   "name": "xdf-vue-toastify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "A light weight and fun Vue 3 toast or notification or snack bar or however you wanna call it library.",
   "files": [
