@@ -1,6 +1,4 @@
-# Mosha Vue Toastify
-
-[![Build Status](https://travis-ci.com/szboynono/mosha-vue-toastify.svg?branch=main)](https://travis-ci.com/szboynono/mosha-vue-toastify)
+# Xdf Vue Toastify
 
 轻量好看好用的Vue3通知提醒组件
 

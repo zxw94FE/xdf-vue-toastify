@@ -1,6 +1,4 @@
-# Mosha Vue Toastify
-
-[![Build Status](https://travis-ci.com/szboynono/mosha-vue-toastify.svg?branch=main)](https://travis-ci.com/szboynono/mosha-vue-toastify)
+# Xdf Vue Toastify
 
 A lightweight and fun Vue 3 toast or notification or snack bar or however you wanna call it library.
 
@@ -155,4 +153,4 @@ The `createToast` function accepts 2 arguments:
 
 ## Support
 
-Give this [project](https://github.com/szboynono/mosha-vue-toastify) a ⭐ if you like it. Any suggestions are welcome!
+Give this [project](https://github.com/zxw94FE/xdf-vue-toastify) a ⭐ if you like it. Any suggestions are welcome!
