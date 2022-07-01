@@ -27,13 +27,13 @@ Try it out in the [playground](https://szboynono.github.io/mosha-vue-toastify/) 
 With NPM:
 
 ```bash
-$ npm install mosha-vue-toastify
+$ npm install xdf-vue-toastify
 ```
 
 With Yarn:
 
 ```bash
-$ yarn add mosha-vue-toastify
+$ yarn add xdf-vue-toastify
 ```
 
 ## The gist
@@ -46,9 +46,9 @@ $ yarn add mosha-vue-toastify
 <script lang='ts'>
 import { defineComponent } from 'vue'
 // import the library
-import { createToast } from 'mosha-vue-toastify';
+import { createToast } from 'xdf-vue-toastify';
 // import the styling for the toast
-import 'mosha-vue-toastify/dist/style.css'
+import 'xdf-vue-toastify/dist/style.css'
 
 export default defineComponent({
   name: 'HelloWorld',
@@ -71,9 +71,9 @@ The `createToast` function accepts 2 arguments:
   - It can also accept a Vue 3 component or a VNode if you need more customization, e.g.
   ```ts
     // without props
-    import { createToast } from 'mosha-vue-toastify';
+    import { createToast } from 'xdf-vue-toastify';
     import CustomizedContent from "./CustomizedContent.vue";
-    import 'mosha-vue-toastify/dist/style.css';
+    import 'xdf-vue-toastify/dist/style.css';
 
     export default defineComponent({
       setup () {
@@ -86,9 +86,9 @@ The `createToast` function accepts 2 arguments:
   ```
   ```ts
     // with props
-    import { createToast, withProps } from 'mosha-vue-toastify';
+    import { createToast, withProps } from 'xdf-vue-toastify';
     import CustomizedContent from "./CustomizedContent.vue";
-    import 'mosha-vue-toastify/dist/style.css';
+    import 'xdf-vue-toastify/dist/style.css';
 
     export default defineComponent({
       setup () {
@@ -118,9 +118,9 @@ The `createToast` function accepts 2 arguments:
 - **Programatically closing**
   The `createToast` function returns an object that contains a `close` funtion that allows the user to programatically dismiss the toast. See below:
   ```ts
-      import { createToast } from 'mosha-vue-toastify';
+      import { createToast } from 'xdf-vue-toastify';
       import CustomizedContent from "./CustomizedContent.vue";
-      import 'mosha-vue-toastify/dist/style.css';
+      import 'xdf-vue-toastify/dist/style.css';
 
       export default defineComponent({
         setup () {
@@ -136,9 +136,9 @@ The `createToast` function accepts 2 arguments:
   ```
   To clear all the toasts, use the `clearToasts` function. See below
   ```ts
-      import { createToast, clearToasts } from 'mosha-vue-toastify';
+      import { createToast, clearToasts } from 'xdf-vue-toastify';
       import CustomizedContent from "./CustomizedContent.vue";
-      import 'mosha-vue-toastify/dist/style.css';
+      import 'xdf-vue-toastify/dist/style.css';
 
       export default defineComponent({
         setup () {

@@ -27,13 +27,13 @@
 NPM:
 
 ```bash
-$ npm install mosha-vue-toastify
+$ npm install xdf-vue-toastify
 ```
 
 Yarn:
 
 ```bash
-$ yarn add mosha-vue-toastify
+$ yarn add xdf-vue-toastify
 ```
 
 ## 精华
@@ -46,9 +46,9 @@ $ yarn add mosha-vue-toastify
 <script lang='ts'>
 import { defineComponent } from 'vue'
 // 导入库
-import { createToast } from 'mosha-vue-toastify';
+import { createToast } from 'xdf-vue-toastify';
 // 导入提醒框样式
-import 'mosha-vue-toastify/dist/style.css'
+import 'xdf-vue-toastify/dist/style.css'
 
 export default defineComponent({
   name: 'HelloWorld',
@@ -71,9 +71,9 @@ export default defineComponent({
   - 也可使是一个Vue组件或是一个VNode, 比如：
   ```ts
     // without props
-    import { createToast } from 'mosha-vue-toastify';
+    import { createToast } from 'xdf-vue-toastify';
     import CustomizedContent from "./CustomizedContent.vue";
-    import 'mosha-vue-toastify/dist/style.css';
+    import 'xdf-vue-toastify/dist/style.css';
 
     export default defineComponent({
       setup () {
@@ -86,9 +86,9 @@ export default defineComponent({
   ```
   ```ts
     // with props
-    import { createToast, withProps } from 'mosha-vue-toastify';
+    import { createToast, withProps } from 'xdf-vue-toastify';
     import CustomizedContent from "./CustomizedContent.vue";
-    import 'mosha-vue-toastify/dist/style.css';
+    import 'xdf-vue-toastify/dist/style.css';
 
     export default defineComponent({
       setup () {
@@ -117,9 +117,9 @@ export default defineComponent({
 - **以编程的方式关闭提醒框**
   `createToast`函数会返回一个对象，对象中包含一个叫`close`的函数。调用`close`函数会关闭所属提醒框，请看下面例子。
   ```ts
-      import { createToast } from 'mosha-vue-toastify';
+      import { createToast } from 'xdf-vue-toastify';
       import CustomizedContent from "./CustomizedContent.vue";
-      import 'mosha-vue-toastify/dist/style.css';
+      import 'xdf-vue-toastify/dist/style.css';
 
       export default defineComponent({
         setup () {
@@ -135,9 +135,9 @@ export default defineComponent({
   ```
   调用`clearToasts`函数会关闭页面上所有的提醒框。
   ```ts
-      import { createToast, clearToasts } from 'mosha-vue-toastify';
+      import { createToast, clearToasts } from 'xdf-vue-toastify';
       import CustomizedContent from "./CustomizedContent.vue";
-      import 'mosha-vue-toastify/dist/style.css';
+      import 'xdf-vue-toastify/dist/style.css';
 
       export default defineComponent({
         setup () {
@@ -153,4 +153,4 @@ export default defineComponent({
 
 ## 支持一下吧
 
-喜欢的话给这个[项目](https://github.com/szboynono/mosha-vue-toastify) 一个⭐吧。有什么建议的话欢迎开issue噢。
+喜欢的话给这个[项目](https://github.com/zxw94FE/xdf-vue-toastify) 一个⭐吧。有什么建议的话欢迎开issue噢。

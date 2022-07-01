@@ -1,13 +1,13 @@
 {
-  "name": "mosha-vue-toastify",
-  "version": "1.0.23",
+  "name": "xdf-vue-toastify",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A light weight and fun Vue 3 toast or notification or snack bar or however you wanna call it library.",
   "files": [
     "dist"
   ],
-  "main": "./dist/mosha-vue-toastify.umd.js",
-  "module": "./dist/mosha-vue-toastify.es.js",
+  "main": "./dist/xdf-vue-toastify.umd.js",
+  "module": "./dist/xdf-vue-toastify.es.js",
   "typings": "dist/main.d.ts",
   "style": "./dist/style.css",
   "scripts": {
@@ -18,7 +18,7 @@
     "format": "prettier --config .prettierrc 'lib/**/*.{ts,vue}' --write",
     "build": "vite build && tsc -P tsconfig.json",
     "serve": "vite preview",
-    "example:update": "yarn build && cd examples/vite-sample && yarn link \"mosha-vue-toastify\"",
+    "example:update": "yarn build && cd examples/vite-sample && yarn link \"xdf-vue-toastify\"",
     "example:dev": "cd examples/vite-sample && yarn dev",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -59,10 +59,10 @@
     "toast",
     "snackbar",
     "message",
-    "mosha-vue-toastify"
+    "xdf-vue-toastify"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/szboynono/mosha-vue-toastify.git"
+    "url": "https://github.com/zxw94FE/xdf-vue-toastify.git"
   }
 }

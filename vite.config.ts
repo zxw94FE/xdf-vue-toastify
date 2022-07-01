@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, '/lib/main.ts'),
-      name: 'mosha-vue-toastify'
+      name: 'xdf-vue-toastify'
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
